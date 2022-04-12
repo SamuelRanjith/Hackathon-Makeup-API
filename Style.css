@@ -1,0 +1,68 @@
+.answer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #22c1c3;
+    color: white;
+  }
+  img{
+    height: 120px ;
+    width: 120px;
+  }
+  h1{
+      text-align: center;
+      font-style: italic;
+      font-size: xx-large
+  }
+  
+  html {
+    margin: 0;
+    overflow-x: hidden;
+    scrollbar-width: 1px;
+    background-color: wheat;
+    color: rgb(210, 93, 93);
+  }
+
+  .jumbo {
+    padding: 2%;
+    margin: 1%;
+    width: 100%;
+    max-width: 1000px; 
+  }
+
+   .anSpace {
+    background-color: rgb(248, 246, 246);
+    color: rgb(228, 227, 227);
+    padding: 20px;
+    margin: 1%;
+    border-radius: 4px;
+    align-items: center;
+    overflow: auto;
+  } 
+  
+  .page-btns {
+    display: flex;
+    width: 100%;
+    overflow-x: flex;
+  }
+  
+ 
+  table, thead, tbody, tr, th, td {
+    border: none;
+  }
+  tr {
+    background-color: wheat;
+    color: black;
+  }
+  tr:nth-child(odd) {
+    background-color: aliceblue;
+    color: Black;
+  }
+  
+  button {
+    margin: 1%;
+  }
+  
